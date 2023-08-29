@@ -1,7 +1,7 @@
 'use strict';
 // get name
-const namePlayer1 = prompt('لطفا نام بازیکن اول را وارد کنید ');
-const namePlayer2 = prompt('لطفا نام بازیکن دوم را وارد کنید ');
+const namePlayer1 = prompt('Please enter the name of the first player');
+const namePlayer2 = prompt('Please enter the name of the second player');
 const namePlayerOne = document.querySelector('.namePlayerOne');
 const namePlayerTwo = document.querySelector('.namePlayerTwo');
 namePlayerOne.textContent = namePlayer1.toUpperCase();
